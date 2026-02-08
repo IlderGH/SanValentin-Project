@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 10px;
+}
+
+.footer {}
+
+.footer_text {
+  opacity: 1;
+  font-size: 15px;
+}
+
+.text-respuestas {
+  font-size: 20px;
+  color: #463e40;
+}
+
+.terminal {
+  border-radius: 5px;
+
+}
+
+.texto-rojo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.texto-titulo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.texto-datos {
+  font-size: 12px;
+}
